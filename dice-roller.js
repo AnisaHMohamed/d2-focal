@@ -1,5 +1,5 @@
 
-
+const args = process.argv.slice(2);
 const diceRoller = (rolls) => {
   var outcome = Math.ceil(Math.random() * Math.ceil(6));
   for (let i = 0; i < rolls-1; i++){
@@ -9,4 +9,4 @@ const diceRoller = (rolls) => {
   console.log(`Rolled ${rolls} dice: ${outcome}`)
 }
 
-diceRoller(1);
+diceRoller(args);
