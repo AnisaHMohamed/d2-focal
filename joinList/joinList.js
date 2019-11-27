@@ -1,11 +1,11 @@
 
-const joinList = (itemList) =>{
+const joinList = (itemList) => {
   let final = "";
   let item = "";
-  
+
   if (itemList.length === 0) {
     return item;
-    
+
   }
   for (let i = 0; i < itemList.length - 1; i++) {
     item = itemList[i];
