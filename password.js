@@ -1,5 +1,5 @@
 
-const obfuscate = (entry) => {
+const obfuscatePassword = (entry) => {
   let password = "";
   for (let index = 0; index < entry.length; index++) {
     const letter = entry[index];
@@ -17,4 +17,4 @@ const obfuscate = (entry) => {
   }
   return password;
 };
-console.log(obfuscate("audaciously"));
+console.log(obfuscatePassword("audaciously"));
